@@ -414,7 +414,7 @@ function generatingTetrimino(){
     if (startGame && !gameLocked && !pieceActive){
         if(renewBoard){
             score = 0;
-           $("button").text("Restart");
+           $("button").text("Restart Game");
             renewedBoard();
             refreshDrawBoard();
             $("p").text("Score: " + score);
