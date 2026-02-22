@@ -1,0 +1,87 @@
+
+.outside-container{
+display:flex;
+flex-direction: row;
+
+justify-content: center;
+}
+#gameWrapper{
+    display:flex;
+flex-direction: row;
+height: 100vh;
+justify-content: center;
+}
+.container{
+    margin-top:150px;
+    display: grid;
+    width:260px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+                        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    background-color: cadetblue;
+}
+
+button{
+    position: relative;
+    z-index: 3;
+}
+.unit{
+    width:25px;
+    height: 25px;
+    border-radius: 8%;
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+#score{
+   
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    justify-content:center;
+   
+}
+
+#score{
+    
+   text-align: center;
+}
+#controls{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    
+    
+}
+#unorderedList{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#unorderedList>div{
+    width:46%;
+    text-align:left;
+}
+
+#gameOver {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.85);
+  color: red;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 3rem;
+  z-index: 1;
+}
