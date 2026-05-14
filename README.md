@@ -1,4 +1,4 @@
-# tetrisGame
+# tetrisGame https://jacky-siu-goldy.github.io/tetrisGame/
 Tetris Game Engine (JavaScript) This project implements a Tetris game using a custom tick-based engine.
 The game separates horizontal input, rotation, gravity, and locking into controlled update phases to prevent diagonal or phantom movement. A lock-delay system allows limited player adjustment before gravity forces a drop. The board includes a hidden spawn buffer above the visible playfield to safely handle piece entry and collision validation. State guards are used to control piece lifecycle, ensuring deterministic behavior across movement, locking, row clearing, and spawning.
 
