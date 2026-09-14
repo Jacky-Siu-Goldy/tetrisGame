@@ -419,7 +419,7 @@ function generatingTetrimino(){
             refreshDrawBoard();
             $("p").text("Score: " + score);
             renewBoard = false;
-            playtheme();
+           // playtheme();
        } 
         dx = 3;
         dy =0;
@@ -768,11 +768,11 @@ function gameOver(){
     }
    if(gameLocked){
      $("#gameOver").css("display", "flex");
-     stopTheme();
+   
    }
 }
 
-function playtheme(){
+/*function playtheme(){
     const videoId ="HS5M1gm0KH0&t=81s"
     const src =
         "https://www.youtube.com/embed/" + videoId +
@@ -782,7 +782,7 @@ function playtheme(){
 
 function stopTheme(){
     $("#tetrisThemeYT").attr("src", "");
-}
+}*/
  
 
    
